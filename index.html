@@ -1,55 +1,202 @@
-<!-- ALL PAGES MUST BE LINKED WITH ONE ANOTHER -->
-<!-- MUST BE COMPATIBLE ON DESKTOP AND MOBILE -->
-<!-- MUST USE HTML, CSS AND JAVASCRIPT -->
-
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Homepage</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Green Man Ammo Recycling</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <style>
+        /* General Styling */
+        body {
+            font-family: 'Poppins', sans-serif; /* Modern, elegant font */
+            color: #2C2C2C; /* Dark charcoal text */
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9; /* Subtle light grey background */
+            line-height: 1.7;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #f0f0f0;
+            color: #2C2C2C;
+            padding: 40px;
+            text-align: center;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        header h1 {
+            font-size: 3rem; /* Large, elegant header */
+            font-weight: 600;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: #666; /* Softer grey for description */
+        }
+
+        /* Main Content Section */
+        .main-content {
+            padding: 60px 20px;
+            background-color: #ffffff;
+            margin: 40px auto;
+            max-width: 1100px;
+            border-radius: 10px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05); /* Softer shadow for a modern touch */
+        }
+
+        /* Individual Section Styling */
+        .section {
+            margin-bottom: 60px;
+        }
+
+        .section h2 {
+            font-size: 2rem;
+            color: #2C2C2C;
+            margin-bottom: 15px;
+            position: relative;
+            padding-bottom: 10px;
+            display: inline-block;
+        }
+
+        /* Stylish Underline for Section Headings (FF4C60FF)*/
+        .section h2::after {
+            content: '';
+            width: 75px;
+            height: 4px;
+            background-color: #357e1e; /* Accent color */
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            border-radius: 2px;
+        }
+
+        .section p {
+            font-size: 1.1rem;
+            color: #555;
+            line-height: 1.8;
+        }
+
+        /* Contact Section Styling */
+        .contact {
+            background-color: #f0f0f0;
+            padding: 60px 20px;
+            text-align: center;
+            color: #2C2C2C;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .contact h2 {
+            font-size: 1.8rem;
+            color: #2C2C2C;
+            margin-bottom: 10px;
+        }
+
+        .contact p {
+            font-size: 1.1rem;
+            color: #666;
+        }
+
+        .contact img {
+            align-content: center;
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: #2C2C2C;
+            color: #ffffff;
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+        }
+
+        /* Hover Effects for Interactivity */
+        h2:hover::after {
+            width: 100%;
+            transition: width 0.99s;
+        }
+
+        p:hover {
+            color: #2C2C2C;
+            transition: color 0.3s ease;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem; /* Smaller header for mobile */
+            }
+
+            .main-content {
+                padding: 20px 15px; /* Reduce padding for smaller screens */
+            }
+
+            .section h2 {
+                font-size: 1.5rem;
+                text-align: center; /* Center-align headings on mobile */
+            }
+
+            .section p {
+                font-size: 1rem;
+                text-align: justify; /* Text alignment for better readability */
+            }
+
+            .contact {
+                padding: 30px 15px; /* Less padding for mobile contact section */
+            }
+
+            footer {
+                padding: 10px; /* Adjust footer padding */
+            }
+
+        }
+    </style>
+
+    <!-- Google Font Import -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
-
 <body>
-
+<!-- Header -->
 <header>
-    <h4>Travis Cassell</h4>
+    <h1>Green Man Ammo Recycling</h1>
+    <p>Specializing in the disposal and recycling of unwanted small arms ammunition</p>
 </header>
 
-<section>
+<!-- Main Content Section -->
+<div class="main-content">
+    <!-- Section 1 -->
+    <div class="section">
+        <h2>About Us</h2>
+        <p>Green Man Ammo Recycling specializes in the safe disposal of ammunition for law enforcement agencies in Northern California. Green Man Ammo Recycling came into existence after several law enforcement agencies had the need to safely dispose of unwanted or unusable ammo. Evidence rooms and armories often have excessive piles of live ammunition. Here at GMAR, we specialize in safely dismantling live ammo for the precious metals contained inside. We were taught in schools that gold, silver and platinum are the precious metals, here at GMAR we know brass, copper and lead are precious.</p>
+    </div>
 
-    <nav>
-    </nav>
+    <!-- Section 2 -->
+    <div class="section">
+        <h2>Disposal Solutions</h2>
+        <p>Green Man Ammo Recycling will safely remove your agencies unwanted and often toxic ammunition. As a retired LEO, I’m experienced with the safe handling of small arms ammo.</p>
+    </div>
 
-    <article>
-        <h1>About Me</h1>
-        <p>My name is Travis Cassell</p>
-        <p>I am currently a senior at CSU East Bay</p>
-        <p>I am studying for my Bachelor's degree in Computer Science</p>
-        <p>I will be graduating in May of 2023</p>
+    <!-- Section 3 -->
+    <div class="section">
+        <h2>Our Clients</h2>
+        <p>Share the mission or values that drive your business, adding a personal touch that resonates with your audience.</p>
+    </div>
+</div>
 
-        <div></div>
+<!-- Contact Section -->
+<div class="contact">
+    <h2>Contact Us</h2>
+    <p>(530) 521-0947 <img src="/images/phone.svg"/></p>
+    <p>sentry1650@gmail.com <img src="/images/mail.svg"/></p>
+</div>
 
-        <img src="images/Travis.jpg" alt="Photo of Travis">
-    </article>
-</section>
-
+<!-- Footer -->
 <footer>
-    <a href="index.html">Home Page</a>
-    <a href="resume.html">Resume</a>
-    <a href="projects.html">Projects</a>
-    <a href="https://github.com/travisgazelle" target="_blank">GitHub</a>
-    <a href="https://www.linkedin.com/in/tcassell/ " target="_blank">LinkedIn</a>
+    <p>&copy; 2024 Green Man Ammo Recycling. All Rights Reserved.</p>
 </footer>
-
 </body>
 </html>
-
-<!--
-<ul>
-    <li><a style="width: 100%"  href="index.html">Home Page</a></li>
-    <li><a style="width: 100%" href="resume.html">Resume</a></li>
-    <li><a style="width: 100%" href="projects.html">Projects</a></li>
-</ul>
--->
