@@ -7,17 +7,15 @@
     <title>Green Man Ammo Recycling</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <style>
-        /* General Styling */
         body {
-            font-family: 'Poppins', sans-serif; /* Modern, elegant font */
-            color: #2C2C2C; /* Dark charcoal text */
+            font-family: 'Poppins', sans-serif;
+            color: #2C2C2C;
             margin: 0;
             padding: 0;
-            background-color: #f9f9f9; /* Subtle light grey background */
+            background-color: #f9f9f9;
             line-height: 1.7;
         }
 
-        /* Header Styling */
         header {
             background-color: #f0f0f0;
             color: #2C2C2C;
@@ -27,35 +25,41 @@
         }
 
         header h1 {
-            font-size: 3rem; /* Large, elegant header */
+            font-size: 3rem;
             font-weight: 600;
-            margin-bottom: 10px;
+            margin: 10px 0 10px;
             letter-spacing: 1px;
         }
 
         header p {
             font-size: 1.2rem;
-            color: #666; /* Softer grey for description */
+            color: #666;
+            margin-top: 10px;
         }
 
-        header img {
+        .header-flag {
+            width: 160px;
             display: block;
-            width: 15%;
-            height: 15%;
-            margin: auto;
+            margin: 0 auto 10px;
         }
 
-        /* Main Content Section */
+        .header-logo {
+            width: 140px;
+            max-width: 60%;
+            height: auto;
+            display: block;
+            margin: 10px auto 10px;
+        }
+
         .main-content {
             padding: 60px 20px;
             background-color: #ffffff;
             margin: 40px auto;
             max-width: 1100px;
             border-radius: 10px;
-            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05); /* Softer shadow for a modern touch */
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
         }
 
-        /* Individual Section Styling */
         .section {
             margin-bottom: 60px;
         }
@@ -69,31 +73,24 @@
             display: inline-block;
         }
 
-        /* Stylish Underline for Section Headings (FF4C60FF)*/
         .section h2::after {
             content: '';
             width: 75px;
             height: 4px;
-            background-color: #357e1e; /* Accent color */
+            background-color: #357e1e;
             position: absolute;
             bottom: 0;
             left: 0;
             border-radius: 2px;
         }
 
-        .section p {
-            font-size: 1.1rem;
-            color: #555;
-            line-height: 1.8;
-        }
-
+        .section p,
         .section ul {
             font-size: 1.1rem;
             color: #555;
             line-height: 1.8;
         }
 
-        /* Contact Section Styling */
         .contact {
             background-color: #f0f0f0;
             padding: 60px 20px;
@@ -102,22 +99,6 @@
             border-top: 1px solid #e0e0e0;
         }
 
-        .contact h2 {
-            font-size: 1.8rem;
-            color: #2C2C2C;
-            margin-bottom: 10px;
-        }
-
-        .contact p {
-            font-size: 1.1rem;
-            color: #666;
-        }
-
-        .contact img {
-            align-content: center;
-        }
-
-        /* Footer Styling */
         footer {
             background-color: #2C2C2C;
             color: #ffffff;
@@ -127,66 +108,47 @@
             letter-spacing: 1px;
         }
 
-        /* Hover Effects for Interactivity */
-        h2:hover::after {
-            width: 100%;
-            transition: width 0.99s;
-        }
-
-        p:hover {
-            color: #2C2C2C;
-            transition: color 0.3s ease;
-        }
-
-        ul:hover {
-            color: #2C2C2C;
-            transition: color 0.3s ease;
-        }
-
-        /* Responsive Design */
         @media (max-width: 768px) {
             header h1 {
-                font-size: 2rem; /* Smaller header for mobile */
+                font-size: 2rem;
+            }
+
+            .header-logo {
+                width: 100px;
             }
 
             .main-content {
-                padding: 20px 15px; /* Reduce padding for smaller screens */
+                padding: 20px 15px;
             }
 
             .section h2 {
                 font-size: 1.5rem;
-                text-align: center; /* Center-align headings on mobile */
+                text-align: center;
             }
 
             .section p {
                 font-size: 1rem;
-                text-align: justify; /* Text alignment for better readability */
+                text-align: justify;
             }
 
             .contact {
-                padding: 30px 15px; /* Less padding for mobile contact section */
+                padding: 30px 15px;
             }
-
-            footer {
-                padding: 10px; /* Adjust footer padding */
-            }
-
         }
     </style>
 
-    <!-- Google Font Import -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-<!-- Header -->
+
 <header>
-    <h1><img src="/images/flag.png"/>Green Man Ammo Recycling</h1>
+    <img src="/images/flag.png" alt="American Flag" class="header-flag">
+    <img src="/images/green-man-logo.png" alt="Green Man Ammo Recycling logo" class="header-logo">
+    <h1>Green Man Ammo Recycling</h1>
     <p>Specializing in the disposal and recycling of unwanted small arms ammunition</p>
 </header>
 
-<!-- Main Content Section -->
 <div class="main-content">
-    <!-- Section 1 -->
     <div class="section">
         <h2>About Us</h2>
         <p>Green Man Ammo Recycling specializes in the safe disposal of ammunition for law enforcement agencies in Northern California. Green Man Ammo Recycling came into existence after several law enforcement agencies had the need to safely dispose of unwanted or unusable ammo. Evidence rooms and armories often have excessive piles of live ammunition. Here at GMAR, we specialize in safely dismantling live ammo for the precious metals contained inside. We were taught in schools that gold, silver and platinum are the precious metals, here at GMAR we know brass, copper and lead are precious.</p>
@@ -194,18 +156,15 @@
 </div>
 
 <div class="main-content">
-    <!-- Section 2 -->
     <div class="section">
         <h2>Disposal Solutions</h2>
         <p>Green Man Ammo Recycling will safely remove your agencies unwanted and often toxic ammunition. As a retired LEO, I’m experienced with the safe handling of small arms ammo.</p>
     </div>
 </div>
 
-    <div class="main-content">
-    <!-- Section 3 -->
+<div class="main-content">
     <div class="section">
         <h2>Our Clients</h2>
-        <p></p>
         <ul style="list-style-type:none;">
             <li>Marin County Sheriff</li>
             <li>Tiburon Police</li>
@@ -225,17 +184,15 @@
     </div>
 </div>
 
-<!-- Contact Section -->
 <div class="contact">
     <h2>Contact Us</h2>
-    <p>sentry1650@gmail.com <img src="/images/mail.svg"/></p>
-    <p>(530) 521-0947 <img src="/images/phone.svg"/></p>
-
+    <p>sentry1650@gmail.com <img src="/images/mail.svg" alt=""></p>
+    <p>(530) 521-0947 <img src="/images/phone.svg" alt=""></p>
 </div>
 
-<!-- Footer -->
 <footer>
     <p>&copy; 2024 Green Man Ammo Recycling. All Rights Reserved.</p>
 </footer>
+
 </body>
 </html>
